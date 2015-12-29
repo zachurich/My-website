@@ -1,14 +1,14 @@
 html {
 	background-color: #3498db;
-	overflow-x: hidden;
-	hor
+	
+	overflow: hidden;
+    overflow-y: auto;
 
 }
 
 body {
 	margin: 0 auto;
-	overflow: hidden;
-    overflow-y: auto;
+	
 }
 
 .logo {
