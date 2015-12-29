@@ -1,11 +1,14 @@
 html {
 	background-color: #3498db;
 	overflow-x: hidden;
+	hor
 
 }
 
 body {
 	margin: 0 auto;
+	overflow: hidden;
+    overflow-y: auto;
 }
 
 .logo {
@@ -70,11 +73,7 @@ body {
 
 @media (max-width: 1080px) {
 	.mainheader-container{
-	background: url("site_banner-01.svg")  center center fixed;
-	height: 600px;
-	line-height: 600px;
-	text-align: center;
-	margin-bottom: -20px;
+	
 	}
 }
 
@@ -113,6 +112,14 @@ body {
 
 
 	
+}
+
+@media (max-width: 1080px) {
+	.jumbotron-text h1 {
+		font-size: 3em;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
 }
 
 
