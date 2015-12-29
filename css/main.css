@@ -1,0 +1,323 @@
+html {
+	background-color: #3498db;
+	overflow-x: hidden;
+
+}
+
+body {
+	margin: 0 auto;
+}
+
+.logo {
+
+	font-size: 1.5em;
+	letter-spacing: 2px;
+	height: 50px;
+	width: 300px;
+	float: left;
+	margin-left: 8%;
+	margin-top: px;
+	font-family: 'Open Sans';
+	color: #4A4A4A;
+	
+}
+
+@media (max-width: 1080px) {
+  .logo {
+    ;
+
+  }
+}
+/*Use jquery to change (lower) opacity on scroll (when past jumbotron)*/
+.container-nav {
+	background-color: white;
+	height: 80px;
+	z-index: 1;
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	
+	top: 0;
+	
+}
+
+@media (max-width: 1080px) {
+  .nav {
+    display:none;
+  }
+}
+.nav {
+	margin-right: 58px;
+	margin-top: 25px;
+	float: right;
+
+
+}
+
+
+.nav a {
+	font-family: 'Open Sans';
+	display:inline-block;
+	margin-left: 58px;
+	font-size: 1.25em;
+	font-weight: ;
+	text-decoration: none;
+	color: #4A4A4A;
+}
+.nav a:hover {
+	color: #1A1A1A;
+}
+.mainheader-container {
+	background: url(assets/site_banner-01.svg)  center center fixed;
+	
+	-ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+	background-size: cover;
+
+	height: 600px;
+	line-height: 600px;
+	text-align: center;
+	margin-bottom: -20px;
+}
+
+.jumbotron-text {
+	
+	
+
+
+}
+
+.jumbotron-text h1 {
+	font-size: 3.75em;
+	font-family: 'Open Sans';
+	font-weight: 400;
+	display: inline-block;
+  	vertical-align: middle;
+  	line-height: normal;
+	color: white;
+
+
+	
+}
+
+
+
+
+
+.kicker {
+	font-size: 20px;
+	font-family: 'Open Sans';
+	margin: 0px;
+	color: #1A1A1A;
+
+}
+
+
+.about-section-header {
+	text-align: center;
+	font-family: 'Open Sans';
+	
+	height: 85px;
+	left: 0px;
+	right: 0px;
+	margin: -10px -10px;
+	top: 0;
+	
+}
+.about-section-header h1 {
+	padding-top: 90px;
+	color: #3498db;
+	font-size: 1.5em;
+}
+.about-section-container {
+	height: 787px;
+	background-color: #ececec;
+	margin-left: -10px;
+	margin-right: -20px;
+	
+}
+
+.bio-pic {
+  background-color: white;
+  width: 250px;
+  height: 250px;
+  border-radius: 200px; 
+  float: right;
+  margin-top: 100px;
+  margin-right: 200px;
+
+
+}
+
+@media (max-width: 1080px) {
+  .bio-pic {
+	margin: 0 auto;  
+   float:none;
+   margin-top: 100px;
+
+   
+
+  }
+}
+.about-section-container p {
+
+	font-size: 1.5em;
+	color: #4A4A4A;
+	font-family: 'Open Sans';
+	text-align: left;
+	margin-left: 80px;
+	margin-top: 100px;
+	font-weight: 300;
+
+}
+
+
+@media (max-width: 1080px) {
+  .about-section-container p {
+    text-align: center;
+    margin-top:0px;
+    margin-left: 0;
+
+  }
+}
+
+
+.work-section-header {
+	
+	font-family: 'Open Sans';
+	height: 85px;
+	left: 0px;
+	right: 0px;
+	margin: -10px;  
+	top:0;
+	
+}
+.work-section-container {
+	height: 740px;
+}
+
+.work-section-header h1 {
+	
+	padding-top: 90px;
+	color: white;
+	font-size: 1.5em;
+	text-align: center;
+}
+span {
+	font-weight: 600;
+}
+
+.contact-section-container {
+	height: 700px;
+	background-color: #ececec;
+	left: 0;
+
+}
+
+.contact-section-header h1 {
+	text-align: center;
+	margin-top:-15px;
+	padding-top: 90px;
+	color: #3498db;
+	font-size: 1.5em;
+}
+
+.social-icons {
+	max-width: 700px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	margin-top: 150px;
+	height: px;
+	align-items: center;
+	overflow: auto;
+}
+
+.social-icons div {
+	margin-left: 30px;
+	margin-right: 30px;
+	border-radius: 50%;
+	height: 55px;
+	width: 55px;
+	flex-shrink: 0;
+}
+
+.icon-twitter {
+	order: 1;
+	background-color: black;
+	height: 55px;
+	width: 55px;
+	border-radius: 100%;
+	
+	
+	
+}
+
+.icon-linkedin {
+	order:2;
+	background-color: black;
+	height: 55px;
+	width: 55px;
+	
+	
+	
+}
+
+.icon-behance {
+	order: 3;
+	background-color: black;
+	height: 55px;
+	width: 55px;
+	
+	
+}
+
+.icon-dribbble {
+	order: 4;
+	background-color: black;
+	height: 55px;
+	width: 55px;
+	
+	
+}
+
+.contact-section-header {
+	
+	font-family: 'Open Sans';
+	height: 85px;
+	left: 0px;
+	right: 0px;
+	margin: -10px;  
+	top:0;
+	
+}
+
+
+
+.footer {
+	background-color: #ececec;
+	
+	height: 40px;
+	left: 0px;
+	right: 0px;
+	margin: -10px -10px;
+	margin-bottom: px; 
+	top: 0;
+	
+}
+.footer p {
+	font-family: 'Open Sans';
+	display:inline-block;
+	margin:; 
+	margin-top: 8px;
+	margin-bottom: 0px;
+	margin-left: 58px;
+	font-size: 16px;
+	font-weight: 700;
+	text-decoration: none;
+	color: #95a5a6;
+
+}
+
