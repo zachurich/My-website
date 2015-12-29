@@ -101,6 +101,12 @@ body {
 
 
 }
+/*add media query for iphone text (make smaller)*/
+@media (max-width: 1080px) {
+	.jumbotron-text h1 {
+		font-size: 3em;
+	}
+}
 
 .jumbotron-text h1 {
 	font-size: 3.75em;
