@@ -68,11 +68,9 @@ body {
 	color: #1A1A1A;
 }
 
-@media (max-width: 1080) {
+@media (max-width: 1080px) {
 	.mainheader-container{
-		background: url("site_banner-01.svg")  center center fixed;
-	
-
+	background: url("site_banner-01.svg")  center center fixed;
 	height: 600px;
 	line-height: 600px;
 	text-align: center;
@@ -105,6 +103,7 @@ body {
 @media (max-width: 1080px) {
 	.jumbotron-text h1 {
 		font-size: 1em;
+		color:blue;
 	}
 }
 
