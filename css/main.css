@@ -1,24 +1,16 @@
 html {
 	background-color: #3498db;
-	
+	overflow-x: hidden;
 	overflow: hidden;
     overflow-y: auto;
 
 }
-
-
 
 body {
 	margin: 0 auto;
 	
 }
 
-@media (max-width: 1080px) {
-	body {
-		overflow: hidden;
-    	overflow-y: auto;
-	}
-}
 .logo {
 
 	font-size: 1.5em;
