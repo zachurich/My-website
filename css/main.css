@@ -68,7 +68,7 @@ body {
 	color: #1A1A1A;
 }
 .mainheader-container {
-	background: url(assets/site_banner-01.svg)  center center fixed;
+	background: url(Assets/site_banner-01.svg)  center center fixed;
 	
 	-ms-background-size: cover;
     -o-background-size: cover;
