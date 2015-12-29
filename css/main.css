@@ -71,13 +71,7 @@ body {
 @media (max-width: 1080) {
 	.mainheader-container{
 		background: url("site_banner-01.svg")  center center fixed;
-	overflow: hidden
-	-webkit-overflow-scrolling: touch;
-	-ms-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-	background-size: cover;
+	
 
 	height: 600px;
 	line-height: 600px;
