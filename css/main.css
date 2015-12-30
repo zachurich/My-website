@@ -272,7 +272,7 @@ span {
 	display: flex;
 	justify-content: space-between;
 	margin: 0 auto;
-	margin-top: 150px;
+	margin-top: px;
 	height: px;
 	align-items: center;
 	overflow: auto;
@@ -302,16 +302,7 @@ span {
 
 }
 
-.contact-section-header {
-	
-	font-family: 'Open Sans';
-	height: 85px;
-	left: 0px;
-	right: 0px;
-	margin: -10px;  
-	top:0;
-	
-}
+
 
 
 
