@@ -25,12 +25,14 @@ body {
 	
 }
 
-@media (max-width: 1080px) {
-  .logo {
-    ;
-
-  }
+@media all and (max-width: 800px) {
+	.logo {
+		font-size: 1.3em;
+		line-height: 2;
+	}
 }
+
+
 /*Use jquery to change (lower) opacity on scroll (when past jumbotron)*/
 .container-nav {
 	background-color: white;
@@ -81,16 +83,17 @@ body {
     -moz-background-size: cover;
     -webkit-background-size: cover;
 	background-size: cover;
-
+	width: 100%
 	height: 600px;
 	line-height: 600px;
 	text-align: center;
 	margin-bottom: -20px;
 }
 
-@media only screen and (min-width: 992px) {
+@media all and (max-width: 1080px) {
 	.mainheader-container {
-	background-attachment: fixed;
+		background: url("site_banner-01.svg")  center center fixed;
+		background-attachment: scroll;
 	}
 }
 
@@ -138,26 +141,25 @@ body {
 
 
 .about-section-header {
-	text-align: center;
 	font-family: 'Open Sans';
-	
-	height: 85px;
+	height: 175px;
 	left: 0px;
 	right: 0px;
-	margin: -10px -10px;
-	top: 0;
+	top:0;
+	
 	
 }
 .about-section-header h1 {
-	padding-top: 90px;
+	line-height: 175px;
+	padding-top: ;
 	color: #3498db;
 	font-size: 1.5em;
+	text-align: center;
 }
 .about-section-container {
 	height: 787px;
 	background-color: #ececec;
-	margin-left: -10px;
-	margin-right: -20px;
+	
 	
 }
 
@@ -173,15 +175,19 @@ body {
 
 }
 
-@media (max-width: 1080px) {
+@media all and (max-width: 1080px) {
   .bio-pic {
 	margin: 0 auto;  
    float:none;
-   margin-top: 100px;
+   margin-top: px;
+	}
+}
 
-   
-
-  }
+@media all and (max-width: 400px) {
+	.bio-pic {
+	width: 200px;
+  	height: 200px;
+	}
 }
 .about-section-container p {
 
@@ -196,23 +202,29 @@ body {
 }
 
 
-@media (max-width: 1080px) {
+@media all and (max-width: 1080px) {
   .about-section-container p {
     text-align: center;
     margin-top:0px;
-    margin-left: 0;
+    margin-left: 10%;
+    margin-right: 10%;
 
   }
+}
+
+@media all and (max-width: 400px) {
+	.about-section-container p {
+		font-size: 1.4em;
+	}
 }
 
 
 .work-section-header {
 	
 	font-family: 'Open Sans';
-	height: 85px;
+	height: 175px;
 	left: 0px;
 	right: 0px;
-	margin: -10px;  
 	top:0;
 	
 }
@@ -221,8 +233,8 @@ body {
 }
 
 .work-section-header h1 {
-	
-	padding-top: 90px;
+	line-height: 175px;
+	padding-top: ;
 	color: white;
 	font-size: 1.5em;
 	text-align: center;
@@ -238,12 +250,21 @@ span {
 
 }
 
+.contact-section-header {
+	
+	font-family: 'Open Sans';
+	height: 175px;
+	left: 0px;
+	right: 0px;
+	top:0;
+}
+
 .contact-section-header h1 {
-	text-align: center;
-	margin-top:-15px;
-	padding-top: 90px;
+	line-height: 175px;
+	padding-top: ;
 	color: #3498db;
 	font-size: 1.5em;
+	text-align: center;
 }
 
 .social-icons {
