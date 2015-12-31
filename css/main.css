@@ -253,7 +253,7 @@ body {
 	width: 25%;
 	height: 150px;
 	/*placeholder image*/
-	background: url("CreditCardCheckout.png");
+	background: url("") gray ;
 	background-position: center center;
 	background-size: cover;
 	float: left;
