@@ -94,6 +94,7 @@ body {
 	.mainheader-container {
 		background: url("site_banner-01.svg")  center center fixed;
 		background-attachment: scroll;
+		background-size: cover;
 	}
 }
 
