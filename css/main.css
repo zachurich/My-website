@@ -254,7 +254,7 @@ body {
 	width: 25%;
 	height: 150px;
 	/*placeholder image*/
-	background: url("") gray ;
+	background: url("") white ;
 	background-position: center center;
 	background-size: cover;
 	float: left;
@@ -288,6 +288,12 @@ body {
 	transition: opacity .25s ease-in-out;
 	  -moz-transition: opacity .25s ease-in-out;
   -webkit-transition: opacity .25s ease-in-out;
+}
+
+@media all and (max-device-width: 1000px) {
+	.thumb-overlay {
+		opacity: 0.8;
+	}
 }
 
 .thumb-overlay strong {
