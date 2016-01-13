@@ -191,13 +191,13 @@ body {
 
 @media all and (max-width: 1080px) {
   .bio-pic {
-	margin: 0 auto;  
+	margin:  auto;  
    float:none;
-   margin-top: px;
+   margin-top: 70px;
 	}
 }
 
-@media all and (max-width: 400px) {
+@media all and (max-width: 600px) {
 	.bio-pic {
 	width: 200px;
   	height: 200px;
@@ -260,13 +260,14 @@ body {
 
 
 .thumb-unit {
-	width: 50%;
+	width: 25%;
 	height: 300px;
 	/*placeholder image*/
 	background: url("") white ;
 	background-position: center center;
 	background-size: cover;
 	float: left;
+
 	text-decoration: none;
 	position: relative;
 	padding-top: ;
@@ -275,19 +276,25 @@ body {
 	flex-wrap: wrap;
 	
 }
-
 @media all and (max-width: 1000px) {
 	.thumb-unit {
-		width: ;
+		width: 50%;
 	}
 }
+@media all and (max-width: 500px) {
+	.thumb-unit {
+		width: 100% ;
+	}
+}
+
+
 .thumb-overlay {
 	width: 100%;
 	height: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
-	background-color: #ececec;
+	background-color: #3498db;
 	opacity: 0;
 
 }
@@ -369,6 +376,8 @@ span {
 .social-icons a {
 	display: block;
 	background-color: #3498db;
+	font-size: 1.5em;
+	text-decoration: none;
 	height: 50px;
 	width: 50px;
 	text-align: center;
@@ -378,8 +387,6 @@ span {
 	margin: 50px;
 
 }
-
-
 
 
 
