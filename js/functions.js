@@ -18,17 +18,20 @@ function smoothScroll (duration) {
 }
 
 
-$(window).scroll(function(){
-      if($(document).scrollTop() > 0)
+$.jribbble.setToken('38098c5d1842fe025e4c7faceab8a27d94096b638fa6c4b1dca9851347d994da');
 
-        {   
-             $('container-nav').addClass('width80');
-        }
-      else{
-             $('container-nav').removeClass('width80');
-
-      }
-    });
+$.jribbble.users('zachurich').shots({per_page: 8}).then(function(shots) {
+  var html = [];
+  
+  shots.forEach(function(shot) {
+    html.push('<li class="shots--shot">');
+    html.push('<a href="' + shot.html_url + '" target="_blank">');
+    html.push('<img src="' + shot.images.normal + '">');
+    html.push('</a></li>');
+  });
+  
+  $('.shots').html(html.join(''));
+});
 
 
 
