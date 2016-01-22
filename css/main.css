@@ -184,10 +184,17 @@ body {
 	text-align: center;
 }
 .about-section-container {
-	height: 787px;
+	overflow: hidden;
+	height: ;
 	background-color: #ececec;
 	
 	
+	
+}
+
+.bio {
+	overflow: hidden;
+	height: 600px;
 }
 
 .bio-pic {
@@ -200,6 +207,13 @@ body {
   margin-right: 200px;
 
 
+}
+
+.bio-pic img {
+
+	width: 250px;
+  height: 250px;
+  border-radius: 200px;
 }
 
 @media all and (max-width: 1080px) {
@@ -216,7 +230,22 @@ body {
   	height: 200px;
 	}
 }
-.about-section-container p {
+
+@media all and (max-width: 1080px) {
+  .bio-pic img {
+	margin:  auto;  
+   	float:none;
+   }
+}
+
+@media all and (max-width: 600px) {
+	.bio-pic img {
+	width: 200px;
+  	height: 200px;
+	}
+}
+
+.bio-copy p {
 
 	font-size: 1.5em;
 	color: #808080;
@@ -230,7 +259,7 @@ body {
 
 
 @media all and (max-width: 1080px) {
-  .about-section-container p {
+  .bio-copy p {
     text-align: center;
     margin-top:0px;
     margin-left: 10%;
@@ -240,20 +269,150 @@ body {
 }
 
 @media all and (max-width: 400px) {
-	.about-section-container p {
+	.bio-copy p {
 		font-size: 1.4em;
 	}
 }
 
-.divider {
-	height: 1px;
-	background-color: #808080;
-	width: 80%;
-	margin: 0 auto;
-	color: black;
-	
-	
+
+/*Design Section*/
+
+.design {
+	overflow: hidden;
+	background-color: #3498db; 
+	height: 600px;
 }
+
+.design-icon {
+  background-color: white;
+  width: 250px;
+  height: 250px;
+  border-radius: 200px; 
+  float: left;
+  margin-top: 100px;
+  margin-left: 200px;
+
+
+}
+
+.design-icon img {
+
+}
+
+@media all and (max-width: 1080px) {
+  .design-icon {
+	margin:  auto;  
+   float:none;
+   margin-top: 70px;
+	}
+}
+
+@media all and (max-width: 600px) {
+	.design-icon {
+	width: 200px;
+  	height: 200px;
+	}
+}
+.design-copy p {
+
+	font-size: 1.5em;
+	
+	color: white;
+	font-family: 'Open Sans';
+	text-align: left;
+	margin-right: 100px;
+	margin-top: 200px;
+	max-width: 50%;
+	float: right;
+	
+		font-weight: 400;
+
+}
+
+
+@media all and (max-width: 1080px) {
+  .design-copy p {
+    text-align: center;
+    padding-top: 50px;
+    max-width: 80%;
+    margin: 0 auto;
+    float: none;
+
+  }
+}
+
+@media all and (max-width: 400px) {
+	.design-copy p {
+		font-size: 1.4em;
+	}
+}
+
+
+/*Dev Section*/
+
+.dev {
+	overflow: hidden;
+	height: 450px;
+}
+
+.dev-icon {
+  background-color: white;
+  width: 250px;
+  height: 250px;
+  border-radius: 200px; 
+  float: right;
+  margin-top: 100px;
+  margin-right: 200px;
+
+
+}
+
+@media all and (max-width: 1080px) {
+  .dev-icon {
+	margin:  auto;  
+   float:none;
+   margin-top: 70px;
+	}
+}
+
+@media all and (max-width: 600px) {
+	.dev-icon {
+	width: 200px;
+  	height: 200px;
+	}
+}
+.dev-copy p {
+	float: left;
+	font-size: 1.5em;
+	color: #808080;
+	font-family: 'Open Sans';
+	text-align: left;
+	margin-left: 80px;
+	margin-top: 100px;
+	font-weight: 400;
+
+}
+
+
+@media all and (max-width: 1080px) {
+  .dev-copy p {
+  	float: none;
+    text-align: center;
+    margin-top:0px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+  }
+}
+
+@media all and (max-width: 400px) {
+	.dev-copy p {
+		font-size: 1.4em;
+	}
+}
+
+
+
 
 .work-section-preamble {
 	font-size: 1.3em;
@@ -298,7 +457,7 @@ body {
 .work-section-container {
 	overflow: hidden;
 	font-family: 'Open Sans';
-	background-color: 
+	background-color: white; 
 }
 
 .shots {
@@ -324,7 +483,7 @@ body {
 
 @media all and (max-width: 400px) {
 	.shots li {
-		width: 100%;
+		width: 50%;
 	}
 }
 
