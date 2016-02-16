@@ -20,7 +20,7 @@ function smoothScroll (duration) {
 
 $.jribbble.setToken('38098c5d1842fe025e4c7faceab8a27d94096b638fa6c4b1dca9851347d994da');
 
-$.jribbble.users('zachurich').shots({per_page: 8}).then(function(shots) {
+$.jribbble.users('zachurich').shots({per_page: 12}).then(function(shots) {
   var html = [];
   
   shots.forEach(function(shot) {
@@ -32,7 +32,6 @@ $.jribbble.users('zachurich').shots({per_page: 8}).then(function(shots) {
   
   $('.shots').html(html.join(''));
 });
-
 
 
 
