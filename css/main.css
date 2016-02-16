@@ -103,7 +103,7 @@ body {
 
 
 .mainheader-container {
-	background: url("site_banner-01.svg") no-repeat center center fixed;
+	background-color: #3498db;
 	
 	-ms-background-size: cover;
     -o-background-size: cover;
