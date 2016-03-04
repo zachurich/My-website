@@ -546,6 +546,7 @@ span {
 	text-align: center;
 	border: none;
 	float: right;
+	-webkit-appearance: none;
 	transition: background-color 0.2s ease;
 	-webkit-transition: background-color 0.2s ease-out;
   -moz-transition: background-color 0.2s ease-out;
@@ -618,7 +619,7 @@ span {
 	@media all and (max-width: 600px) {
 	.social-icons a:nth-child(1) {
 	margin-left: 20%;
-	
+
 
 	}
 
