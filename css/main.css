@@ -565,6 +565,18 @@ span {
 	
 }
 
+@media all and (max-width: 600px) {
+	.social-icons {
+		position: relative;
+		display: block;
+		width: 100%;
+		margin: 0 auto;
+		float: none;
+		height: 40px;
+		background-color: #3498db;
+	}
+}
+
 
 
 
@@ -594,14 +606,23 @@ span {
 @media all and (max-width: 600px) {
 	.social-icons a {
 	font-size: .9em;
-	margin-right: 0px;
 	background-color: transparent;
 	height: 40px;
 	width: 40px;
 	color: white;
 	border-radius: 0;
 	line-height: 40px;
+
 	}
+}
+	@media all and (max-width: 600px) {
+	.social-icons a:nth-child(1) {
+	margin-left: 20%;
+	
+
+	}
+
+
 
 
 }
@@ -623,7 +644,15 @@ span {
 	
 }
 
-
+@media all and (max-width: 600px) {
+	.footer {
+		
+		width: 100%;
+		height: 100px;
+		margin: 0 auto;
+		
+	}
+}
 
 .footer p {
 	font-family: 'Open Sans';
@@ -644,8 +673,8 @@ span {
 	.footer p {
 	font-size: .9em;
 	text-align: center;
-	
-	
+	margin: 0 auto;
+	width: 100%;
 	}
 }
 
