@@ -3,6 +3,8 @@ html {
 	overflow-x: hidden;
 	overflow: hidden;
     overflow-y: auto;
+    font-family: 'Open sans';
+    color: #808080;
 
 }
 
@@ -433,7 +435,7 @@ span {
 }
 
 .contact-section-container {
-	height: 700px;
+	height: 800px;
 	background-color: #ececec;
 	left: 0;
 	position: relative;
@@ -457,79 +459,192 @@ span {
 	font-size: 1.5em;
 	text-align: center;
 	margin: 0;
+
+}
+
+
+
+.form-header {
+	margin: 0px auto;
+	margin-bottom: 100px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: #3498db;
+	font-size: 1.5em;
+	padding-top: 100px;
+	
+	
+}
+
+form {
+	max-width: 450px;
+	margin-right: 200px;
+	float: right;
+	
+}
+
+@media all and (max-width: 1080px) {
+	form {
+		float: none;
+		margin: 0 auto;
+		padding: 0 20px;
+
+	}
+} 
+
+input:focus {
+	outline: none;
+	border-color: #59baef;
+}
+
+
+input, textarea {
+	border: 2px solid #3498db;
+	width: 100%;
+	height: 3em;
+
+}
+
+
+
+textarea {					
+
+	margin-bottom: 20px;
+	height: 10em;
+}
+
+textarea:focus {
+	outline: none;
+	border-color: #59baef;
+}
+
+.contact-group  {		/*Name and Email only*/
+	width: 100%;
+}
+
+label {
+	
+	margin-bottom: 20px;
+}
+
+
+
+span {
+	
+}
+
+.send-button {
+	background-color: #3498db;
+	color: white;
+	width: 33%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+	font-size: 18px;
+	border-radius: 5px;
+	text-align: center;
+	border: none;
+	float: right;
+	transition: background-color 0.2s ease;
+	-webkit-transition: background-color 0.2s ease-out;
+  -moz-transition: background-color 0.2s ease-out;
+  -o-transition: background-color 0.2s ease-out;
+  transition: background-color 0.2s ease-out;
+}
+
+.send-button:hover {
+	background-color: #59baef;
 }
 
 .social-icons {
-	max-width: 800px;
-	display: flex;
-	justify-content: space-between;
-	margin: 0 auto;
-	margin-top: 100px;
-	height: px;
-	align-items: center;
-	overflow: auto;
+	
+	float: right;
+	display: inline-block;
+	margin-top: 20px;
+	
 }
 
 
 
-.social-icons {
-	max-width: 1000px;
-	margin: 0px auto px;
-	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
 
-}
+
+
 
 .social-icons a {
-	display: block;
-	background-color: #3498db;
-	font-size: 1.5em;
+	display: inline-block;
+	margin-right: 20px;
+	background-color: white;
+	font-size: 1.3em;
 	text-decoration: none;
-	height: 50px;
-	width: 50px;
+	height: 40px;
+	width: 40px;
 	text-align: center;
-	line-height: 50px;
-	color: white;
-	border-radius: 50%;
-	margin: 50px;
+	line-height: 40px;
+	color: #3498db;
+	border-radius: 100%;
+	transition: background-color 0.2s ease;
+	-webkit-transition: background-color 0.2s ease-out;
+  	-moz-transition: background-color 0.2s ease-out;
+  	-o-transition: background-color 0.2s ease-out;
+  
 
 }
 
+@media all and (max-width: 600px) {
+	.social-icons a {
+	font-size: .9em;
+	margin-right: 0px;
+	background-color: transparent;
+	height: 40px;
+	width: 40px;
+	color: white;
+	border-radius: 0;
+	line-height: 40px;
+	}
+
+
+}
+
+.social-icons a:hover {
+	background-color: #59baef;
+}
 
 
 .footer {
-	background-color: #ececec;
-	
-	height: 40px;
+	background-color: #3498db;
+	position: absolute;
+	height: 80px;
 	width: 100%;
 	left: 0px;
 	right: 0px;
-	
-	margin-bottom: px; 
-	top: 0;
+	bottom: 0;
+
 	
 }
+
+
+
 .footer p {
 	font-family: 'Open Sans';
-	display:block;
+	display:inline-block;
 	text-align: center;
 	margin-top: 0px;
 	margin-bottom: 0px;
-	
+	margin-left: 20px;
+	line-height: 80px;
 	font-size: 1em;
-	font-weight: 700;
+	font-weight: 400;
 	text-decoration: none;
-	color: #95a5a6;
+	color: white;
 
 }
 
-@media all and (max-width: 350px) {
+@media all and (max-width: 600px) {
 	.footer p {
 	font-size: .9em;
 	text-align: center;
-	margin: 0 auto;
-	display: block;
+	
 	
 	}
 }
